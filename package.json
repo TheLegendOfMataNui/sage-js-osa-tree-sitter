@@ -1,7 +1,8 @@
 {
 	"name": "sage-js-osa-tree-sitter",
+	"description": "SAGE-JS OSA tree-sitter grammar",
 	"version": "1.0.0",
-	"description": "SAGE-JS OSA grammar for tree-sitter",
+	"keywords": [],
 	"main": "index.js",
 	"scripts": {
 		"build": "tree-sitter generate && node-gyp build",
