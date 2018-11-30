@@ -1,0 +1,22 @@
+{
+	"name": "sage-js-osa-tree-sitter",
+	"version": "1.0.0",
+	"description": "SAGE-JS OSA grammar for tree-sitter",
+	"main": "index.js",
+	"scripts": {
+		"build": "tree-sitter generate && node-gyp build",
+		"test": "tree-sitter test"
+	},
+	"repository": "https://github.com/TheLegendOfMataNui/sage-js-osa-tree-sitter.git",
+	"bugs": "https://github.com/TheLegendOfMataNui/sage-js-osa-tree-sitter/issues",
+	"author": "JrMasterModelBuilder",
+	"copyright": "Copyright (c) 2018 JrMasterModelBuilder",
+	"license": "MPL-2.0",
+	"dependencies": {
+		"nan": "^2.11.1"
+	},
+	"devDependencies": {
+		"node-gyp": "^3.8.0",
+		"tree-sitter-cli": "^0.13.10"
+	}
+}

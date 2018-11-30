@@ -1,0 +1,18 @@
+==================
+Comment
+==================
+
+; test
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(line (comment (COMMENT)) (NL))
+		)
+	)
+)

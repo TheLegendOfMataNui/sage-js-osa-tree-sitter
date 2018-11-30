@@ -1,0 +1,22 @@
+==================
+Block
+==================
+
+begin block
+end
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(block
+				(begin (BEGIN) (identifier (IDENTIFIER)) (NL))
+				(end (END) (NL))
+			)
+		)
+	)
+)

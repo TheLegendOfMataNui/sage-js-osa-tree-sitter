@@ -1,0 +1,22 @@
+==================
+Argument Number Float
+==================
+
+test -3.14159265
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (arguments
+				(argument
+					(argumentNumber (NUMBER))
+				)
+			) (NL))
+		)
+	)
+)

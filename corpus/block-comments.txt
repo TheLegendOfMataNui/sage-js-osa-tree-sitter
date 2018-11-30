@@ -1,0 +1,22 @@
+==================
+Block Comments
+==================
+
+begin block ; it begins
+end ; this is the end
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(block
+				(begin (BEGIN) (identifier (IDENTIFIER)) (comment (COMMENT)) (NL))
+				(end (END) (comment (COMMENT)) (NL))
+			)
+		)
+	)
+)

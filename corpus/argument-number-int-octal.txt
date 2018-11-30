@@ -1,0 +1,22 @@
+==================
+Argument Number Int Octal
+==================
+
+test 0o1234567
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (arguments
+				(argument
+					(argumentNumber (NUMBER))
+				)
+			) (NL))
+		)
+	)
+)

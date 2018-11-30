@@ -1,0 +1,26 @@
+==================
+Argument Number Infinity
+==================
+
+test Infinity, -Infinity
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (arguments
+				(argument
+					(argumentNumber (NUMBER))
+				)
+				(COMMA)
+				(argument
+					(argumentNumber (NUMBER))
+				)
+			) (NL))
+		)
+	)
+)

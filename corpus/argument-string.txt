@@ -1,0 +1,20 @@
+==================
+Argument String
+==================
+
+test "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (arguments
+				(argument (argumentString (STRING)))
+			) (NL))
+		)
+	)
+)

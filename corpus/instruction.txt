@@ -1,0 +1,18 @@
+==================
+Instruction
+==================
+
+test
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (NL))
+		)
+	)
+)

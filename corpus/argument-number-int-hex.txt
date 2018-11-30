@@ -1,0 +1,22 @@
+==================
+Argument Number Int Hex
+==================
+
+test 0xC0FFEE
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (arguments
+				(argument
+					(argumentNumber (NUMBER))
+				)
+			) (NL))
+		)
+	)
+)

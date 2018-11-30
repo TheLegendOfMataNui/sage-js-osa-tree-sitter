@@ -1,0 +1,20 @@
+==================
+Argument String Specials
+==================
+
+test "~`!@#$%^&*()-_=+{}[]|';:<>,.?/"
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (arguments
+				(argument (argumentString (STRING)))
+			) (NL))
+		)
+	)
+)

@@ -1,0 +1,67 @@
+==================
+Nesting
+==================
+
+begin animals
+	begin dog
+		legs 4
+		arms 2
+	end
+	begin monkey
+		legs 2
+		arms 2
+	end
+end
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(block
+				(begin (BEGIN) (identifier (IDENTIFIER)) (NL))
+				(statements
+					(statement
+						(block
+							(begin (BEGIN) (identifier (IDENTIFIER)) (NL))
+							(statements
+								(statement
+									(instruction (identifier (IDENTIFIER)) (arguments
+										(argument (argumentNumber (NUMBER)))
+									) (NL))
+								)
+								(statement
+									(instruction (identifier (IDENTIFIER)) (arguments
+										(argument (argumentNumber (NUMBER)))
+									) (NL))
+								)
+							)
+							(end (END) (NL))
+						)
+					)
+					(statement
+						(block
+							(begin (BEGIN) (identifier (IDENTIFIER)) (NL))
+							(statements
+								(statement
+									(instruction (identifier (IDENTIFIER)) (arguments
+										(argument (argumentNumber (NUMBER)))
+									) (NL))
+								)
+								(statement
+									(instruction (identifier (IDENTIFIER)) (arguments
+										(argument (argumentNumber (NUMBER)))
+									) (NL))
+								)
+							)
+							(end (END) (NL)))
+						)
+					)
+				(end (END) (NL))
+			)
+		)
+	)
+)

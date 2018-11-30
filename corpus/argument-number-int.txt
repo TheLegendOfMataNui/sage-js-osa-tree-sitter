@@ -1,0 +1,22 @@
+==================
+Argument Number Int
+==================
+
+test 123
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (arguments
+				(argument
+					(argumentNumber (NUMBER))
+				)
+			) (NL))
+		)
+	)
+)

@@ -1,0 +1,27 @@
+==================
+Block Instructions
+==================
+
+begin block
+	hello
+	world
+end
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(block
+				(begin (BEGIN) (identifier (IDENTIFIER)) (NL))
+				(statements
+					(statement (instruction (identifier (IDENTIFIER)) (NL)))
+					(statement (instruction (identifier (IDENTIFIER)) (NL)))
+				)
+				(end (END) (NL)))
+		)
+	)
+)

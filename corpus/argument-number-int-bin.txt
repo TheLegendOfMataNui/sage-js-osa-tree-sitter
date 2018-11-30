@@ -1,0 +1,22 @@
+==================
+Argument Number Int Bin
+==================
+
+test 0x01001010010011010100110101000010
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (arguments
+				(argument
+					(argumentNumber (NUMBER))
+				)
+			) (NL))
+		)
+	)
+)

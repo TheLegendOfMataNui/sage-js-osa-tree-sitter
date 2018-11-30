@@ -1,0 +1,20 @@
+==================
+Argument String Escapes
+==================
+
+test "\b\f\n\r\t\uABEF\"\\"
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (arguments
+				(argument (argumentString (STRING)))
+			) (NL))
+		)
+	)
+)

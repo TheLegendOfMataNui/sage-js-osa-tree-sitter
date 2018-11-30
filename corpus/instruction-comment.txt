@@ -1,0 +1,18 @@
+==================
+Instruction Comment
+==================
+
+test ; comment
+
+---
+
+(file
+	(statements
+		(statement
+			(line (NL))
+		)
+		(statement
+			(instruction (identifier (IDENTIFIER)) (comment (COMMENT)) (NL))
+		)
+	)
+)
