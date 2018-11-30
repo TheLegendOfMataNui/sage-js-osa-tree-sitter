@@ -2,6 +2,8 @@
 
 A SAGE-JS OSA tree-sitter grammar, ported from the official ANTLR4 grammar.
 
+[![Build Status](https://travis-ci.org/TheLegendOfMataNui/sage-js-osa-tree-sitter.svg?branch=master)](https://travis-ci.org/TheLegendOfMataNui/sage-js-osa-tree-sitter)
+
 
 # Bugs
 
