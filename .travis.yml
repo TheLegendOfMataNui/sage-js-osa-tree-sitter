@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+  - "v11.1.0"
+  - "v11.0.0"
+  - "v10.0.0"
+
+cache:
+  directories:
+    - "node_modules"
+
+compiler: clang-3.6
+
+env:
+- CXX=clang-3.6
+
+addons:
+  apt:
+    sources:
+      - llvm-toolchain-precise-3.6
+      - ubuntu-toolchain-r-test
+    packages:
+      - clang-3.6
