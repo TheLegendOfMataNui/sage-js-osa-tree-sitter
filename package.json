@@ -5,6 +5,7 @@
 	"keywords": [],
 	"main": "index.js",
 	"scripts": {
+		"upgrade-interactive": "npm-check --update",
 		"build": "tree-sitter generate && node-gyp build",
 		"test": "tree-sitter test"
 	},
@@ -14,10 +15,11 @@
 	"copyright": "Copyright (c) 2018 JrMasterModelBuilder",
 	"license": "MPL-2.0",
 	"dependencies": {
-		"nan": "^2.11.1"
+		"nan": "^2.13.2",
+		"npm-check": "^5.9.0"
 	},
 	"devDependencies": {
-		"node-gyp": "^3.8.0",
-		"tree-sitter-cli": "^0.13.10"
+		"node-gyp": "^4.0.0",
+		"tree-sitter-cli": "^0.15.1"
 	}
 }
